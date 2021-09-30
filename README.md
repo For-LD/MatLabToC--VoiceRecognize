@@ -1,4 +1,4 @@
-# MatLabToC--VoiceRecognize
+# MatLabToCPlus--VoiceRecognize
 
  ![image](https://github.com/For-LD/MatLabToC--VoiceRecognize/blob/main/source/1.png)
  
