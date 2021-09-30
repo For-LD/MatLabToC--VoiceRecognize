@@ -1,0 +1,4 @@
+"D:\Clion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=D:/gcc-linaro/windows/bin/arm-linux-gnueabihf-gcc.exe -DCMAKE_CXX_COMPILER=D:/gcc-linaro/windows/bin/arm-linux-gnueabihf-g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\13542\Desktop\Test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/13542/Desktop/Test/cmake-build-debug

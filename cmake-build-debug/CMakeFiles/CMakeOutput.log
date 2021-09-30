@@ -1,0 +1,315 @@
+The target system is: Linux -  - armv7-a
+The host system is: Windows - 10.0.18363 - AMD64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/gcc-linaro/windows/bin/arm-linux-gnueabihf-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/MinGW/mingw64/bin/mingw32-make.exe cmTC_802d8/fast && D:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_802d8.dir\build.make CMakeFiles/cmTC_802d8.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_802d8.dir/testCXXCompiler.cxx.o
+D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe     -o CMakeFiles\cmTC_802d8.dir\testCXXCompiler.cxx.o -c C:\Users\13542\Desktop\Test\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_802d8
+"D:\Clion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_802d8.dir\link.txt --verbose=1
+D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe       CMakeFiles/cmTC_802d8.dir/testCXXCompiler.cxx.o  -o cmTC_802d8 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/MinGW/mingw64/bin/mingw32-make.exe cmTC_f8ef1/fast && D:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8ef1.dir\build.make CMakeFiles/cmTC_f8ef1.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o
+D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe    -v -o CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o -c "D:\Clion\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe
+Target: arm-linux-gnueabihf
+Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.9-2014.07/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --disable-multilib --enable-multiarch --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --disable-multilib --with-float=hard
+Thread model: posix
+gcc version 4.9.1 20140710 (prerelease) (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/cc1plus.exe -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/ -isysroot d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc -D_GNU_SOURCE D:\Clion\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o -version -o C:\Users\13542\AppData\Local\Temp\cc4etvWz.s
+GNU C++ (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) version 4.9.1 20140710 (prerelease) (arm-linux-gnueabihf)
+	compiled by GNU C version 4.4.2, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1"
+ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/."
+ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward"
+ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/include"
+ignoring nonexistent directory "d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../include/arm-linux-gnueabihf"
+ignoring nonexistent directory "d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../include"
+ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed"
+ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1
+ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/.
+ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward
+ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include
+ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed
+ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include
+ d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/usr/include
+End of search list.
+GNU C++ (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) version 4.9.1 20140710 (prerelease) (arm-linux-gnueabihf)
+	compiled by GNU C version 4.4.2, GMP version 5.0.2, MPFR version 3.1.0, MPC version 0.9
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d2cc77d0bed45bcd53c7e50ddc375072
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/as.exe -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o C:\Users\13542\AppData\Local\Temp\cc4etvWz.s
+GNU assembler version 2.24.0 (arm-linux-gnueabihf) using BFD version (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) 2.24.0.20140703 Linaro 2014.07-1
+COMPILER_PATH=d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/;d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../libexec/gcc/;d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/;d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../lib/gcc/;d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+Linking CXX executable cmTC_f8ef1
+"D:\Clion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f8ef1.dir\link.txt --verbose=1
+D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe      -v CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8ef1 
+Using built-in specs.
+COLLECT_GCC=D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe
+COLLECT_LTO_WRAPPER=d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper.exe
+Target: arm-linux-gnueabihf
+Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.9-2014.07/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c,c++,fortran --disable-multilib --enable-multiarch --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --disable-multilib --with-float=hard
+Thread model: posix
+gcc version 4.9.1 20140710 (prerelease) (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) 
+COMPILER_PATH=d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/;d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../libexec/gcc/;d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/;d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../lib/gcc/;d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/;d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8ef1' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu'
+ d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2.exe --sysroot=d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f8ef1 d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf -Ld:/gcc-linaro/windows/bin/../lib/gcc -Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o
+mingw32-make.exe[1]: Leaving directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1]
+    add: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/.]
+    add: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward]
+    add: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/include]
+    add: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed]
+    add: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include]
+    add: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/include]
+  end of search list found
+  collapse include dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/include/c++/4.9.1]
+  collapse include dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/.] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf]
+  collapse include dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/include/c++/4.9.1/backward]
+  collapse include dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/include] ==> [D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf/4.9.1/include]
+  collapse include dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed] ==> [D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed]
+  collapse include dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/include]
+  collapse include dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/include] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/usr/include]
+  implicit include dirs: [D:/gcc-linaro/windows/arm-linux-gnueabihf/include/c++/4.9.1;D:/gcc-linaro/windows/arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf;D:/gcc-linaro/windows/arm-linux-gnueabihf/include/c++/4.9.1/backward;D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf/4.9.1/include;D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed;D:/gcc-linaro/windows/arm-linux-gnueabihf/include;D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):D:/MinGW/mingw64/bin/mingw32-make.exe cmTC_f8ef1/fast && D:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_f8ef1.dir\build.make CMakeFiles/cmTC_f8ef1.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe    -v -o CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o -c "D:\Clion\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.9-2014.07/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c c++ fortran --disable-multilib --enable-multiarch --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --disable-multilib --with-float=hard]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.1 20140710 (prerelease) (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/cc1plus.exe -quiet -v -imultilib . -imultiarch arm-linux-gnueabihf -iprefix d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/ -isysroot d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc -D_GNU_SOURCE D:\Clion\CLion 2020.2.4\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv7-a -mtune=cortex-a9 -mfloat-abi=hard -mfpu=vfpv3-d16 -mthumb -mtls-dialect=gnu -auxbase-strip CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o -version -o C:\Users\13542\AppData\Local\Temp\cc4etvWz.s]
+  ignore line: [GNU C++ (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) version 4.9.1 20140710 (prerelease) (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.4.2  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1"]
+  ignore line: [ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/."]
+  ignore line: [ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward"]
+  ignore line: [ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/include"]
+  ignore line: [ignoring nonexistent directory "d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../include/arm-linux-gnueabihf"]
+  ignore line: [ignoring nonexistent directory "d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/gcc-linaro/windows/lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/usr/include/arm-linux-gnueabihf"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1]
+  ignore line: [ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/.]
+  ignore line: [ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward]
+  ignore line: [ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include]
+  ignore line: [ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed]
+  ignore line: [ d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include]
+  ignore line: [ d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++ (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) version 4.9.1 20140710 (prerelease) (arm-linux-gnueabihf)]
+  ignore line: [	compiled by GNU C version 4.4.2  GMP version 5.0.2  MPFR version 3.1.0  MPC version 0.9]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d2cc77d0bed45bcd53c7e50ddc375072]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [ d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/as.exe -v -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -meabi=5 -o CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o C:\Users\13542\AppData\Local\Temp\cc4etvWz.s]
+  ignore line: [GNU assembler version 2.24.0 (arm-linux-gnueabihf) using BFD version (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) 2.24.0.20140703 Linaro 2014.07-1]
+  ignore line: [COMPILER_PATH=d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/]
+  ignore line: [d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../libexec/gcc/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_f8ef1.dir\CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  ignore line: [Linking CXX executable cmTC_f8ef1]
+  ignore line: ["D:\Clion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f8ef1.dir\link.txt --verbose=1]
+  ignore line: [D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe      -v CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f8ef1 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/lto-wrapper.exe]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: /cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/src/gcc-linaro-4.9-2014.07/configure --build=i686-build_pc-linux-gnu --host=i586-host_pc-mingw32msvc --target=arm-linux-gnueabihf --prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install --with-sysroot=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-languages=c c++ fortran --disable-multilib --enable-multiarch --with-arch=armv7-a --with-tune=cortex-a9 --with-fpu=vfpv3-d16 --with-float=hard --with-pkgversion='crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07' --with-bugurl=https://bugs.launchpad.net/gcc-linaro --enable-__cxa_atexit --enable-libmudflap --enable-libgomp --enable-libssp --with-gmp=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpfr=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-mpc=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-isl=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-cloog=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --with-libelf=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/.build/arm-linux-gnueabihf/build/static --enable-threads=posix --disable-libstdcxx-pch --enable-linker-build-id --enable-gold --with-local-prefix=/cbuild/slaves/oorts/crosstool-ng/builds/arm-linux-gnueabihf-win32/install/arm-linux-gnueabihf/libc --enable-c99 --enable-long-long --with-mode=thumb --disable-multilib --with-float=hard]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.1 20140710 (prerelease) (crosstool-NG linaro-1.13.1-4.9-2014.07 - Linaro GCC 4.9-2014.07) ]
+  ignore line: [COMPILER_PATH=d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/]
+  ignore line: [d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../libexec/gcc/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/]
+  ignore line: [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/]
+  ignore line: [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f8ef1' '-shared-libgcc' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=vfpv3-d16' '-mthumb' '-mtls-dialect=gnu']
+  link line: [ d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2.exe --sysroot=d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc --build-id --eh-frame-hdr -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_f8ef1 d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o -Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1 -Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf -Ld:/gcc-linaro/windows/bin/../lib/gcc -Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf -Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o]
+    arg [d:/gcc-linaro/windows/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.1/collect2.exe] ==> ignore
+    arg [--sysroot=d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f8ef1] ==> ignore
+    arg [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtbegin.o] ==> ignore
+    arg [-Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1]
+    arg [-Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf] ==> dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf]
+    arg [-Ld:/gcc-linaro/windows/bin/../lib/gcc] ==> dir [d:/gcc-linaro/windows/bin/../lib/gcc]
+    arg [-Ld:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib]
+    arg [-Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+    arg [-Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib] ==> dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib]
+    arg [-Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+    arg [-Ld:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib]
+    arg [CMakeFiles/cmTC_f8ef1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/crtend.o] ==> ignore
+    arg [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf/crtn.o] ==> ignore
+  collapse library dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1] ==> [D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf/4.9.1]
+  collapse library dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf] ==> [D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf]
+  collapse library dir [d:/gcc-linaro/windows/bin/../lib/gcc] ==> [D:/gcc-linaro/windows/lib/gcc]
+  collapse library dir [d:/gcc-linaro/windows/bin/../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/lib] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/lib]
+  collapse library dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf]
+  collapse library dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/lib] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/lib]
+  collapse library dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [d:/gcc-linaro/windows/bin/../arm-linux-gnueabihf/libc/usr/lib] ==> [D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf/4.9.1;D:/gcc-linaro/windows/lib/gcc/arm-linux-gnueabihf;D:/gcc-linaro/windows/lib/gcc;D:/gcc-linaro/windows/arm-linux-gnueabihf/lib;D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/lib/arm-linux-gnueabihf;D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/lib;D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/usr/lib/arm-linux-gnueabihf;D:/gcc-linaro/windows/arm-linux-gnueabihf/libc/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/MinGW/mingw64/bin/mingw32-make.exe cmTC_eb325/fast && D:/MinGW/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_eb325.dir\build.make CMakeFiles/cmTC_eb325.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_eb325.dir/feature_tests.cxx.o
+D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe    -std=c++14 -o CMakeFiles\cmTC_eb325.dir\feature_tests.cxx.o -c C:\Users\13542\Desktop\Test\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_eb325
+"D:\Clion\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_eb325.dir\link.txt --verbose=1
+D:\gcc-linaro\windows\bin\arm-linux-gnueabihf-g++.exe       CMakeFiles/cmTC_eb325.dir/feature_tests.cxx.o  -o cmTC_eb325 
+mingw32-make.exe[1]: Leaving directory 'C:/Users/13542/Desktop/Test/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_variable_templates

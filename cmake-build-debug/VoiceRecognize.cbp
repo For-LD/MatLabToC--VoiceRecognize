@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="VoiceRecognize"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/13542/Desktop/Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VoiceRecognize">
+				<Option output="C:/Users/13542/Desktop/Test/cmake-build-debug/VoiceRecognize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13542/Desktop/Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_18_05_LIBRARY"/>
+					<Add directory="C:/Users/13542/Desktop/Test/include"/>
+					<Add directory="C:/Users/13542/Desktop/speech/home/bsgcomp/jenkins/workspace/ComputeLibrary_package_release/release_repository/arm_compute"/>
+					<Add directory="C:/Users/13542/Desktop/speech/home/bsgcomp/jenkins/workspace/ComputeLibrary_package_release/release_repository/arm_compute/include"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/."/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 VoiceRecognize"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="VoiceRecognize/fast">
+				<Option output="C:/Users/13542/Desktop/Test/cmake-build-debug/VoiceRecognize" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/13542/Desktop/Test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_18_05_LIBRARY"/>
+					<Add directory="C:/Users/13542/Desktop/Test/include"/>
+					<Add directory="C:/Users/13542/Desktop/speech/home/bsgcomp/jenkins/workspace/ComputeLibrary_package_release/release_repository/arm_compute"/>
+					<Add directory="C:/Users/13542/Desktop/speech/home/bsgcomp/jenkins/workspace/ComputeLibrary_package_release/release_repository/arm_compute/include"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/arm-linux-gnueabihf/."/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include/c++/4.9.1/backward"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/include-fixed"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../lib/gcc/arm-linux-gnueabihf/4.9.1/../../../../arm-linux-gnueabihf/include"/>
+					<Add directory="d:\gcc-linaro\windows\bin\../arm-linux-gnueabihf/libc/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 VoiceRecognize/fast"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/13542/Desktop/Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/13542/Desktop/Test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/13542/Desktop/Test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/13542/Desktop/Test/include/AudioRead.h">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/AsyncBuffercg.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/AsyncBuffercgHelper.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/AudioRead.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/DeepLearningNetwork.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/FFTImplementationCallback.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWACLUtils.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWCNNLayerImpl.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWElementwiseAffineLayer.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWElementwiseAffineLayerImpl.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWFusedConvReLULayer.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWFusedConvReLULayerImpl.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/MWTargetNetworkImpl.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/SystemCore.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/VoiceRecognize.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/VoiceRecognize_data.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/VoiceRecognize_initialize.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/VoiceRecognize_rtwutil.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/VoiceRecognize_terminate.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/categorical.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/cellstr.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/classify.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/cnn_api.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/designMelFilterBank.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/main.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/matlabCodegenHandle.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/melSpectrogram.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/predict.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/rtGetInf.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/rtGetNaN.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/rt_nonfinite.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/src/stft.cpp">
+			<Option target="VoiceRecognize"/>
+		</Unit>
+		<Unit filename="C:/Users/13542/Desktop/Test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
